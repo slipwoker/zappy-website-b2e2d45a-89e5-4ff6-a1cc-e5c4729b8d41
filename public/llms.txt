@@ -1,0 +1,78 @@
+# TalyaBound — Generative Engine Optimization Map
+
+> A personal travel agency run by Talia Simon, a travel agent who wants to showcase her professional identity and personal touch on her website. The site should highlight her personal details and contact information, creating a trustworthy and approachable presence for potential clients seeking travel planning services.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+טליה סיימון תתכנן עבורכם את חופשת החלומות שלכם בצורה אישית ומקצועית. סוכנות נסיעות קטנה עם לב גדול — כי כל מסע מתחיל בבחירה הנכונה.
+
+### שירותים
+https://example.com/services
+מתכנון מסלול מותאם אישית ועד הזמנת טיסות ומלונות — טליה מציעה את כל שירותי סוכנות הנסיעות שתצטרכו כדי לנסוע בלי דאגות ובטחון מלא.
+
+### אודות
+https://example.com/about
+טליה סיימון היא סוכנת נסיעות עם תשוק אמיתי לעולם ואהבה לאנשים. גלו מי היא, מה מניע אותה ולמה לקוחות בוחרים בה שוב ושוב לתכנון הטיול המושלם.
+
+### צור קשר
+https://example.com/contact
+יש לכם חלום לטייל? צרו קשר עם טליה עכשיו וקבלו ייעוץ אישי ומקצועי בחינם. סוכנות הנסיעות הקרובה אליכם מחכה לשמוע מכם ולהפוך את החלום למציאות.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About TalyaBound
+A personal travel agency run by Talia Simon, a travel agent who wants to showcase her professional identity and personal touch on her website. The site should highlight her personal details and contact information, creating a trustworthy and approachable presence for potential clients seeking travel planning services.
+
+## Target Audience
+- נוסעים יוקרתיים
+- נופשים משפחתיים
+- חוקרי תרבות
+
+## Industry
+Travel Agency
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
